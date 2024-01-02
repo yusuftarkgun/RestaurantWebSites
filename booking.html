@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yusuf Restaurant</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <nav id="main-nav" class="navbar">
+          <nav class="navbar-logo">
+            <h2><a href="index.html">Yusuf Rezervasyon</a></h2>
+          </nav>
+          <nav class="navbar-menu">
+            <ul>
+              <li><a>Hakkımızda</a></li>
+              <li><a>Menu</a></li>
+              <li><a href="booking.html">Rezervasyon</a></li>
+              <li>
+                <a href="#" onclick="displaymenu()"
+                  ><i class="fa fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+      </nav>
+    </header>
+    <main id="book-box">
+    <div class="form-container">
+      <h2>Rezervasyon Oluşturun</h2>        
+      <form action="#" class="booking-form">
+          <label for="name">İsim</label>
+
+          <input type="text" id="İSİM" placeholder="İsminiz" />
+          <label for="email">Email</label>
+
+          <input type="email" id="EMAİL" placeholder="Email"/>
+          <label for="phone">Telefon Numarası</label>
+
+          <input type="number" id="TELEFON NUMARASI" placeholder="Telefon Numaranız"/>
+          <label for="date">Tarih</label>
+
+          <input type="date" id="TARİH" placeholder="Tarihiniz"/>
+          <label for="time">Tarih</label>
+
+          <input type="time" id="SAAT" placeholder="Saat"/>
+          <label for="person">Kişi sayısı</label>
+
+          <select name="" id="Kişi sayısı">
+            <option value="#">Seçiniz</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4+</option>
+          </select>
+
+          <button type="submit" class="save-booking">Kaydet</button>
+        </form>
+    </div>
+  </main>
+  <footer>
+    <nav>
+      <nav id="main-footer" class="footer">
+        <nav class="footer-logo">
+          <h2><a href="index.html">Yusuf Restaurant</a></h2>
+        </nav>
+        <nav class="footer-menu">
+          <ul>
+            <li><a>Hakkımızda</a></li>
+            <li><a>Menu</a></li>
+            <li><a href="booking.html">Rezervasyon</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </nav>
+  </footer>
+  </body>
+</html>

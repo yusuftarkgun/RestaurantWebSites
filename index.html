@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yusuf Restaurant</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .navbar .navbar-logo {
+        align-self: left;
+      }
+    </style>
+  </head>
+  <script>
+    function displaymenu() {
+      var link = document.getElementById("main-nav");
+      link.classList.toggle("responsive");
+    }
+  </script>
+  <body>
+    <header>
+      <nav>
+        <nav id="main-nav" class="navbar">
+          <nav class="navbar-logo">
+            <h2><a href="index.html">Yusuf Restaurant</a></h2>
+          </nav>
+          <nav class="navbar-menu">
+            <ul>
+              <li><a>Hakkımızda</a></li>
+              <li><a>Menu</a></li>
+              <li><a href="booking.html">Rezervasyon</a></li>
+              <li>
+                <a href="#" onclick="displaymenu()"
+                  ><i class="fa fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+      </nav>
+    </header>
+    <main>
+      <section id="main-page">
+        <div class="text-bg">
+          <div class="main-text">
+            <h2>Yusuf</h2>
+            <p>
+              Geçmişten Geleceğe Lezzet.
+            </p>
+            <a id="details" href="#">Daha Fazlası</a>
+          </div>
+        </div>
+      </section>
+      <section id="food-ad">
+        <div class="container">
+          <div class="row food-container">
+            <div class="col-4 food-container__item">
+              <div class="food-card">
+                <img class="food-img" src="img/YemekSiyahBeyaz.jpg" alt="" />
+                <div class="food-text">
+                  <h4>Ara Sıcaklar</h4>
+                  <p>
+                    En taze öğünlerimiz ile sizinleyiz.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 food-container__item">
+              <div class="food-card">
+                <img class="food-img" src="img/vegetable-salad-on-white-and-black-ceramic-bowl.jpg" alt="" />
+                <div class="food-text">
+                  <h4>Salatalar</h4>
+                  <p>
+                    Tertemiz Akdeniz salatası ve daha nicesi...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 food-container__item">
+              <div class="food-card">
+                <img class="food-img" src="img/chicken.jpg" alt="" />
+                <div class="food-text">
+                  <h4>Tavuk Çeşitleri</h4>
+                  <p>
+                   El değmemiş, En güzel tavuk çeşitleri Sizlerle...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 food-container__item">
+              <div class="food-card">
+                <img class="food-img" src="img/KurabiyeSiyahBeyaz.jpg" alt="" />
+                <div class="food-text">
+                  <h4>Kurabiyeler</h4>
+                  <p>
+                   Anne eli değmiş gibi kendi evinizden biri gibi...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="counters">
+        <div class="container">
+          <div class="row counter-container">
+            <div class="col-4">
+              <div class="counter-part">
+                <h2>18</h2>
+                <span>DENEYİM</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="counter-part">
+                <h2>10</h2>
+                <span>MENU TİPİ</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="counter-part">
+                <h2>50</h2>
+                <span>ÇALIŞAN</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="counter-part">
+                <h2>15.000</h2>
+                <span>MUTLU MÜŞTERİ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="container">
+          <div class="services-container">
+            <div id="services-title">
+              <h3>Servislerimiz</h3>
+              <h4>Catering Servisleri</h4>
+            </div>
+            <div class="row services">
+              <div class="col-3">
+                <div class="services-col">
+                  <i class="fa-solid fa-cake-candles"></i>
+                  <h3>Doğum Günü</h3>
+                  <p>
+                    En Özel anınızda, unutulmayacak Doğum Günü partileri için sizlerleyiz.
+                  </p>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="services-col">
+                  <i class="fa-regular fa-handshake"></i>
+                  <h3 class="business">İş Toplantıları</h3>
+                  <p>
+                    Profesyonel ekibimiz ile iş toplantılarınız için sizlerin hizmetinzdeyiz.
+                  </p>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="services-col">
+                  <i class="fa-solid fa-champagne-glasses"></i>
+                  <h3>Düğün Organizasyonları</h3>
+                  <p>
+                    Hayatınızın en özel anında pişmanlık duymamak için bizi seçin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <nav id="main-footer" class="footer">
+          <nav class="footer-logo">
+            <h2><a href="index.html">Yusuf Restaurant</a></h2>
+          </nav>
+          <nav class="footer-menu">
+            <ul>
+              <li><a>Hakkımızda</a></li>
+              <li><a>Menu</a></li>
+              <li><a href="booking.html">Rezervasyon</a></li>
+            </ul>
+          </nav>
+        </nav>
+      </nav>
+    </footer>
+  </body>
+</html>
